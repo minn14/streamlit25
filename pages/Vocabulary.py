@@ -82,7 +82,7 @@ with tab3:
 
     # 🎧 Audio playback
     if st.session_state.audio_data:
-        st.audio(st.session_state.audio_data, format='audio/mp3')
+        st.audio(st.session_state.audio_data, format='audio/mpeg')
 
     # ✏️ Text input
     st.session_state.user_input = st.text_input("Type the word you heard:", value=st.session_state.user_input)
